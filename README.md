@@ -2,8 +2,7 @@
 싸이월드 꾸미기 (구조화 및 간단한 css<flex 사용>)
 
 ![싸이월드Main화면](https://github.com/o-jslove/cyworld_FrontEnd/assets/113627742/e267d58c-f020-43d3-9d16-1fa49b45dacc)
-
-싸이월드 메인 화면
+-> 싸이월드 메인 화면
 
 ![image](https://github.com/o-jslove/cyworld_FrontEnd/assets/113627742/e106a50c-76b9-45a0-a281-cdc8e620487a)
 싸이월드 쥬크박스 화면
