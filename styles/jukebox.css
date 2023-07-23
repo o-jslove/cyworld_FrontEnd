@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.wrapper__header {
+  width: 464px;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper__title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-bottom: -12px;
+}
+
+.title {
+  color: #55b2d4;
+  font-family: Malgun Gothic;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: Sci Fied Bitmap;
+  font-size: 8px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.divideLine {
+  border-top: 1px solid #999;
+  width: 100%;
+}
+
+.albumWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 16px;
+  margin-bottom: 5px;
+}
+
+.albumWrapper__item {
+  margin: 0px 16px;
+}
+
+.songtitle {
+  color: #0f465e;
+  text-align: center;
+  font-family: Malgun Gothic;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.artist {
+  color: #999;
+  text-align: center;
+  font-family: Malgun Gothic;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.wrapper__body {
+  width: 464px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.albumTable {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  background-color: #eee;
+  color: #999;
+  font-weight: 700;
+  font-family: Malgun Gothic;
+}
+
+tbody > tr {
+  border-bottom: 1px dotted #999;
+}
+
+input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #999;
+}
+
+.album-table-checkbox {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 4px;
+  width: 5%;
+}
+
+.album-table-number {
+  text-align: center;
+  width: 10%;
+}
+
+.album-table-songtitle {
+  width: 45%;
+  text-align: left;
+}
+
+.album-table-artist {
+  width: 30%;
+  text-align: center;
+}
+
+tbody .album-table-songtitle,
+tbody .album-table-artist {
+  color: #0f465e;
+}
+
+.albumTable__footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.albumTable__footer__button {
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 10px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #fefefe 90%, #dddddd 10%);
+  padding: 4px 3px;
+  text-align: center;
+}
+
+.albumTable__footer__button:hover {
+  background: radial-gradient(#cccccc, #dddddd);
+}
+
+.albumTable__footer__button:active {
+  background: linear-gradient(to bottom, #fefefe 90%, #dddddd 10%);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Game</title>
+    <link href="./styles/game.css" rel="stylesheet" />
+    <script src="./game.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__header">
+        <div class="header__title">
+          <div class="title">Game</div>
+          <div class="subtitle">TODAY CHOICE</div>
+        </div>
+        <div class="divideLine"></div>
+      </div>
+      <!-- 게임 컨테이너1 -->
+      <div class="game__container">
+        <!-- 이미지 -->
+        <img src="./images/word.png" />
+        <!-- 제목 -->
+        <div class="game__title">끝말잇기</div>
+        <!-- 부제목 -->
+        <div class="game__subtitle">
+          제시어 : <span id="word">코드캠프</span>
+        </div>
+        <!-- 단어 입력창 -->
+        <div class="word__text">
+          <input
+            class="textbox"
+            id="myWord"
+            onkeyup="enterKey()"
+            placeholder="단어를 입력하세요"
+          />
+          <button class="search" onclick="startWord()">입력</button>
+        </div>
+        <!-- 결과창 -->
+        <div class="word__result" id="result">결과!</div>
+      </div>
+      <!-- 게임 컨테이너2 -->
+      <div class="game__container">
+        <img src="./images/lotto.png" />
+        <div class="game__title">LOTTO</div>
+        <div class="game__subtitle">버튼을 누르세요.</div>
+        <div class="game__lotto__number">
+          <span class="num">3</span>
+          <span class="num">5</span>
+          <span class="num">10</span>
+          <span class="num">24</span>
+          <span class="num">30</span>
+          <span class="num">34</span>
+        </div>
+        <button class="wrapper__lotto__btn" onclick="randomBtn()">추첨</button>
+      </div>
+    </div>
+  </body>
+</html>

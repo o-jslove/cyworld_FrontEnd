@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Jukebox</title>
+    <link href="./styles/jukebox.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 헤더 부분 -->
+      <div class="wrapper__header">
+        <div class="wrapper__title">
+          <div class="title">추억의 BGM</div>
+          <div class="subtitle">TODAY CHOICE</div>
+        </div>
+        <div class="divideLine"></div>
+        <div class="albumWrapper">
+          <div class="albumWrapper__item">
+            <img class="thumbnail" src="./images/jukebox-01.png" />
+            <div class="songtitle">Y(Please Tell Me Why)</div>
+            <div class="artist">프리스타일</div>
+          </div>
+          <div class="albumWrapper__item">
+            <img class="thumbnail" src="./images/jukebox-02.png" />
+            <div class="songtitle">눈의 꽃</div>
+            <div class="artist">박효신</div>
+          </div>
+          <div class="albumWrapper__item">
+            <img class="thumbnail" src="./images/jukebox-03.png" />
+            <div class="songtitle">사랑했나봐</div>
+            <div class="artist">윤도현</div>
+          </div>
+        </div>
+      </div>
+      <!-- 바디 부분 -->
+      <div class="wrapper__body">
+        <div class="wrapper__title">
+          <div class="title">추억의 BGM</div>
+          <div class="subtitle">TODAY CHOICE</div>
+        </div>
+        <table class="albumTable">
+          <thead>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">번호</td>
+              <td class="album-table-songtitle">곡명</td>
+              <td class="album-table-artist">아티스트</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">1</td>
+              <td class="album-table-songtitle">눈의 꽃</td>
+              <td class="album-table-artist">박효신</td>
+            </tr>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">2</td>
+              <td class="album-table-songtitle">사랑스러워</td>
+              <td class="album-table-artist">김종국</td>
+            </tr>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">3</td>
+              <td class="album-table-songtitle">내사람:Partner For Life</td>
+              <td class="album-table-artist">SG 워너비</td>
+            </tr>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">4</td>
+              <td class="album-table-songtitle">Love Love Love</td>
+              <td class="album-table-artist">에픽하이</td>
+            </tr>
+            <tr>
+              <td class="album-table-checkbox">
+                <input type="checkbox" class="" />
+              </td>
+              <td class="album-table-number">5</td>
+              <td class="album-table-songtitle">애인...있어요</td>
+              <td class="album-table-artist">이은미</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="albumTable__footer">
+          <div class="albumTable__footer__left">
+            <button class="albumTable__footer__button">듣기</button>
+          </div>
+          <div class="albumTable__footer__center">| <span>1</span> |</div>
+          <div class="albumTable__footer__right">
+            <button class="albumTable__footer__button">이동</button>
+            <button class="albumTable__footer__button">배경음악 등록</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
