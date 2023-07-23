@@ -1,7 +1,7 @@
 # cyworld_FrontEnd
 싸이월드 꾸미기 (구조화 및 간단한 css<flex 사용>)
 
-![image](https://github.com/o-jslove/cyworld_FrontEnd/assets/113627742/97059459-b233-4251-9700-7f2541d19128)
+![싸이월드Main화면](https://github.com/o-jslove/cyworld_FrontEnd/assets/113627742/e267d58c-f020-43d3-9d16-1fa49b45dacc)
 싸이월드 메인 화면
 
 ![image](https://github.com/o-jslove/cyworld_FrontEnd/assets/113627742/1578fed7-b5fa-4b01-bb5f-772c706c70fc)
@@ -15,4 +15,5 @@
 
   게임 화면에 자바스크립트를 적용했지만, 프레임워크가 아니기에 리팩토링이 덜 되어 있는 모습이 있다. 하지만 작동에 이상은
  없다. (2023.07.23 일)
+
 
